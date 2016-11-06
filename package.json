@@ -1,0 +1,32 @@
+{
+  "name": "movie-quotes",
+  "version": "0.0.0",
+  "description": "A simple movie quotes application for demo projects.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stemmlerjs/movie-quotes.git"
+  },
+  "keywords": [
+    "movie",
+    "express",
+    "aws",
+    "test"
+  ],
+  "author": "Khalil Stemmler",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/stemmlerjs/movie-quotes/issues"
+  },
+  "dependencies": {
+    "color": "^0.11.4",
+    "express": "^4.14.0",
+    "file-stream-rotator": "0.0.7",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.6.6",
+    "morgan": "^1.7.0"
+  }
+}

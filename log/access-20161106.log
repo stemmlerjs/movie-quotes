@@ -1,0 +1,4 @@
+142.55.0.13 - - [06/Nov/2016:04:09:47 +0000] "GET /favicon.ico HTTP/1.1" 404 24 "http://52.90.173.106/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+142.55.0.13 - - [06/Nov/2016:05:42:18 +0000] "GET /api/quote/ HTTP/1.1" 404 23 "http://52.90.173.106/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+142.55.0.13 - - [06/Nov/2016:05:42:18 +0000] "GET /api/quote/ HTTP/1.1" 404 23 "http://52.90.173.106/" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+142.55.0.13 - - [06/Nov/2016:05:44:30 +0000] "GET /yolo HTTP/1.1" 404 17 "-" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"

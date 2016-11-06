@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Movie Quotes</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <style>
+    body {
+      background-color: #3D9085;
+      color: #F8BF33;
+      height:100%;
+    }
+
+    .fullPage {
+      position: absolute;
+      top: 0px;
+      bottom: 0px;
+      right: 0px;
+      left: 0px;
+    }
+
+    .centered {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      flex-direction: column;
+      top: 0%;
+      bottom: 0%;
+      left: 0%;
+      right: 0%;
+    }
+
+    .quoteText {
+      font-size: 7vw;
+      font-weight: bold;
+
+    }
+    .button {
+      background-color: #8E48AE;
+      color: white;
+      width: 116px;
+      height: 49px;
+    }
+  </style>
+  <base href="/">
+</head>
+<body ng-app="moviequotesapp">
+
+  <div ng-view class="fullPage"></div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js"></script>
+  <script src="https://code.angularjs.org/1.5.6/angular-route.js"></script>
+
+  <script src="/app.js"></script>
+  <script src="/services/QuoteFactory.js"></script>
+  <script src="/controllers/QuoteController.js"></script>
+</body>
+</html>
