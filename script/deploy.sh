@@ -44,5 +44,4 @@ ssh -y ec2-user@10.0.4.12 -T <<EOF
   npm install && npm run start
 EOF
 
-done
 
