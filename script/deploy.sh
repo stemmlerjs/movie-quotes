@@ -1,7 +1,7 @@
 #!bin/bash
 
 # Push to App Server 2 (us-east-1d)
-ssh ec2-user@10.0.3.100 <<EOF
+ssh ec2-user@10.0.3.100
   sudo su
   cd ~
   yum -y update
@@ -18,12 +18,12 @@ ssh ec2-user@10.0.3.100 <<EOF
 
   git clone https://github.com/stemmlerjs/movie-quotes.git
   cd movie-quotes
+  npm stop
   npm install && npm run start
-  done
-EOF
+exit
 
 # Push to App Server 2 (us-east-1a)
-ssh ec2-user@10.0.4.12 <<EOF
+ssh ec2-user@10.0.4.12
   sudo su
   cd ~
   yum -y update
@@ -40,7 +40,7 @@ ssh ec2-user@10.0.4.12 <<EOF
 
   git clone https://github.com/stemmlerjs/movie-quotes.git
   cd movie-quotes
+  npm stop
   npm install && npm run start
-  done
-EOF
+exit
 
