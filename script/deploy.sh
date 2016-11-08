@@ -1,5 +1,6 @@
 #!bin/bash
 
+# Push to App Server 2 (us-east-1d)
 ssh ec2-user@10.0.3.100 <<EOF
   sudo su
   cd ~
@@ -21,6 +22,7 @@ ssh ec2-user@10.0.3.100 <<EOF
   done
 EOF
 
+# Push to App Server 2 (us-east-1a)
 ssh ec2-user@10.0.4.12 <<EOF
   sudo su
   cd ~
