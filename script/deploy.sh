@@ -35,3 +35,4 @@ ssh ec2-user@10.0.3.100 <<EOF
   cd movie-quotes
   npm run start
 EOF
+
