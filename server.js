@@ -8,7 +8,7 @@ var FileStreamRotator = require('file-stream-rotator')
 
 // Startup Express, Logging
 var app = express()
-app.listen(3000)
+app.listen(80)
 app.use(express.static(__dirname + '/public'));
 initLogging()
 
