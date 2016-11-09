@@ -1,0 +1,7 @@
+::1 - - [09/Nov/2016:16:26:46 +0000] "GET /api/quote/ HTTP/1.1" 404 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+::1 - - [09/Nov/2016:16:26:46 +0000] "GET /api/quote/ HTTP/1.1" 404 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+::1 - - [09/Nov/2016:16:26:46 +0000] "GET /favicon.ico HTTP/1.1" 404 24 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+::1 - - [09/Nov/2016:16:28:09 +0000] "GET /api/quote/ HTTP/1.1" 404 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+::1 - - [09/Nov/2016:16:28:09 +0000] "GET /api/quote/ HTTP/1.1" 404 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+::1 - - [09/Nov/2016:16:28:09 +0000] "GET /api/quote/ HTTP/1.1" 404 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
+::1 - - [09/Nov/2016:16:28:09 +0000] "GET /api/quote/ HTTP/1.1" 404 23 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.71 Safari/537.36"
