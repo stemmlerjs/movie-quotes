@@ -6,12 +6,12 @@ angular.module('moviequotesapp')
 
     // create a quote (public)
     quoteFactory.createQuote = function(quote) {
-        return $http.post('/api/quote/new/', quote);
+        return $http.post(config.BASE_URL + '/api/quote/new/', quote);
     }
 
     // Return all quotes
     quoteFactory.getAll = function(){
-        return $http.get('/api/quote/');
+        return $http.get(config.BASE_URL + '/api/quote/');
     }
 
     // Return quote factory

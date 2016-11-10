@@ -1,13 +1,11 @@
-module.exports = function(app, Quote) {
+module.exports = function(app, express, Quote, ROOT_DIR) {
 
   var express = require('express')
   var apiRouter = express.Router();
-
-  apiRouter.get('yolo', function(req, res) {
-    res.send('yolo swag')
-  })
+  var path = require('path')
 
   apiRouter.post('/quote/new', function(req, res) {
+    
     var quote = new Quote({
       quoteText: req.body.quoteText,
       fromMovie: req.body.fromMovie,
@@ -34,11 +32,16 @@ module.exports = function(app, Quote) {
   apiRouter.get('/quote', function(req, res) {
     Quote.find({}, function(err, quotes) {
       res.json({
-        quotes: quotes
+        quotes: quotes,
+        success: true
       })
     })
   })
 
-  app.use('api/', apiRouter)
+  app.use('/api', apiRouter)
+
+  app.get('*', function(req, res) {
+    res.sendFile(path.join(ROOT_DIR + '/public/index.html'))
+  })
 
 }

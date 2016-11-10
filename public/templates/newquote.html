@@ -1,3 +1,18 @@
-<div ng-controller="NewQuoteController">
-here, we will show the new quote controller
+<div class="container newQuoteContainer" ng-controller="NewQuoteController">
+  <h2 style="font-size: 100px;">Enter a new quote</h2>
+  <form style="width: 80%;">
+    <div class="form-group">
+      <label for="quote">What's the quote?</label>
+      <input type="text" class="form-control" id="quote" ng-model="newQuote.quoteText" placeholder="Does your mother sew? Boom! Get her to sew that!">
+    </div>
+    <div class="form-group">
+      <label for="movie">What movie is it from?</label>
+      <input type="text" class="form-control" id="movie" ng-model="newQuote.fromMovie" placeholder="Joe Dirt">
+    </div>
+    <div class="form-group">
+      <label for="submittedBy">Submitted By</label>
+      <input type="text" class="form-control" id="submittedBy" ng-model="newQuote.submittedBy" placeholder="Your name here">
+    </div>
+    <button ng-click="submit()" class="btn btn-default">Submit</button>
+  </form>
 </div>

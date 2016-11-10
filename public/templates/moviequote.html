@@ -1,7 +1,10 @@
 <div class="centered" ng-controller="QuoteController">
-  <h1 class="quoteText">{{quotes[currentQuoteIndex].quote}}</h1>
+  <h1 class="quoteText">{{quotes[currentQuoteIndex].quoteText}}</h1>
   <h3>{{quotes[currentQuoteIndex].fromMovie}}<h3>
   <h4>Submitted by: {{quotes[currentQuoteIndex].submittedBy}}<h4>
-  <button type="button" class="btn btn-default button">Next Quote</button>
+  <button type="button" ng-click="nextQuote()" class="btn btn-default button">Next Quote</button>
+  <div style="margin-top:10px;">
+    <a href="/new">Add a quote</a>
+  </div>
 </div>
 

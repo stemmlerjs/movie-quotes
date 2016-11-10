@@ -24,6 +24,7 @@
     "url": "https://github.com/stemmlerjs/movie-quotes/issues"
   },
   "dependencies": {
+    "body-parser": "^1.15.2",
     "color": "^0.11.4",
     "express": "^4.14.0",
     "file-stream-rotator": "0.0.7",
