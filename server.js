@@ -9,7 +9,7 @@ var bodyParser = require('body-parser')
 
 // Startup Express, Logging
 var app = express()
-app.listen(3000)
+app.listen(80)
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.json())
 initLogging()
