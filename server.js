@@ -36,4 +36,3 @@ function initLogging() {
   app.use(morgan('combined', {stream: accessLogStream}))
 }
 
-// NEWLINE
