@@ -16,8 +16,10 @@ ssh -y ec2-user@10.0.3.100 -T <<EOF
   npm install -g npm
   npm install forever --global
 
+  rm -rf movie-quotes/
   git clone https://github.com/stemmlerjs/movie-quotes.git
   cd movie-quotes
+  pkill -9 node
   npm stop
   npm install && npm run start
 EOF
@@ -38,8 +40,10 @@ ssh -y ec2-user@10.0.4.12 -T <<EOF
   npm install -g npm
   npm install forever --global
 
+  rm -rf movie-quotes/
   git clone https://github.com/stemmlerjs/movie-quotes.git
   cd movie-quotes
+  pkill -9 node
   npm stop
   npm install && npm run start
 EOF
